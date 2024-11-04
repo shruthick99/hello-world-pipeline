@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://your-repo-url.git' // Replace with your repo URL
+                git 'https://github.com/shruthick99/hello-world.' // 
             }
         }
         stage('Install Dependencies') {
